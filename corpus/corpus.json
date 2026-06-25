@@ -1,0 +1,502 @@
+[
+  {
+    "documentIndex": 0,
+    "id": "CF-2237I2",
+    "processedText": "dbfs order hard version dp trees"
+  },
+  {
+    "documentIndex": 1,
+    "id": "CF-2237I1",
+    "processedText": "dbfs order easy version dp trees"
+  },
+  {
+    "documentIndex": 2,
+    "id": "CF-2237H",
+    "processedText": "slime queries data structures greedy trees"
+  },
+  {
+    "documentIndex": 3,
+    "id": "CF-2237G",
+    "processedText": "send gcds communication constructive algorithms interactive math number theory"
+  },
+  {
+    "documentIndex": 4,
+    "id": "CF-2237F",
+    "processedText": "paint array data structures dp greedy"
+  },
+  {
+    "documentIndex": 5,
+    "id": "CF-2237E",
+    "processedText": "permutation commutation data structures graphs greedy"
+  },
+  {
+    "documentIndex": 6,
+    "id": "CF-2237D",
+    "processedText": "fullmetal bitchemist constructive algorithms greedy math"
+  },
+  {
+    "documentIndex": 7,
+    "id": "CF-2237C",
+    "processedText": "duck surplus binary search greedy"
+  },
+  {
+    "documentIndex": 8,
+    "id": "CF-2237B",
+    "processedText": "annoying ghost brute force greedy"
+  },
+  {
+    "documentIndex": 9,
+    "id": "CF-2237A",
+    "processedText": "destroying towers games greedy schedules"
+  },
+  {
+    "documentIndex": 10,
+    "id": "CF-2236G",
+    "processedText": "criterion burlandia binary search bitmasks brute force data structures dfs similar divide conquer implementation trees two pointers"
+  },
+  {
+    "documentIndex": 11,
+    "id": "CF-2236F2",
+    "processedText": "elections saransk hard version combinatorics dp math number theory"
+  },
+  {
+    "documentIndex": 12,
+    "id": "CF-2236F1",
+    "processedText": "elections saransk easy version number theory"
+  },
+  {
+    "documentIndex": 13,
+    "id": "CF-2236E",
+    "processedText": "friendly gifts brute force dp"
+  },
+  {
+    "documentIndex": 14,
+    "id": "CF-2236D",
+    "processedText": "brand new tatar tv show binary search constructive algorithms dp games math"
+  },
+  {
+    "documentIndex": 15,
+    "id": "CF-2236C",
+    "processedText": "omsk programmers brute force greedy math"
+  },
+  {
+    "documentIndex": 16,
+    "id": "CF-2236B",
+    "processedText": "tatar tv show greedy math strings"
+  },
+  {
+    "documentIndex": 17,
+    "id": "CF-2236A",
+    "processedText": "games train greedy math"
+  },
+  {
+    "documentIndex": 18,
+    "id": "CF-2234G",
+    "processedText": "stripe token two players data structures dp games"
+  },
+  {
+    "documentIndex": 19,
+    "id": "CF-2234F",
+    "processedText": "vessels heights two versions hard version data structures dfs similar dsu greedy implementation two pointers"
+  },
+  {
+    "documentIndex": 20,
+    "id": "CF-2234E",
+    "processedText": "vlad misha two arrays brute force combinatorics dfs similar divide conquer math"
+  },
+  {
+    "documentIndex": 21,
+    "id": "CF-2234D",
+    "processedText": "xor expression two binary numbers bitmasks divide conquer dp math number theory"
+  },
+  {
+    "documentIndex": 22,
+    "id": "CF-2234C",
+    "processedText": "vessels heights two versions easy version dfs similar dsu greedy implementation two pointers"
+  },
+  {
+    "documentIndex": 23,
+    "id": "CF-2234B",
+    "processedText": "palindrome twelve two terms brute force constructive algorithms math"
+  },
+  {
+    "documentIndex": 24,
+    "id": "CF-2234A",
+    "processedText": "euclid sequence two numbers math number theory sortings"
+  },
+  {
+    "documentIndex": 25,
+    "id": "CF-2233F",
+    "processedText": "shortest gcd paths dp graphs math number theory shortest paths"
+  },
+  {
+    "documentIndex": 26,
+    "id": "CF-2233E2",
+    "processedText": "permutation transmission difficult version bitmasks combinatorics sortings"
+  },
+  {
+    "documentIndex": 27,
+    "id": "CF-2233E1",
+    "processedText": "permutation transmission easy version bitmasks combinatorics sortings"
+  },
+  {
+    "documentIndex": 28,
+    "id": "CF-2233D",
+    "processedText": "goods shelf brute force data structures implementation two pointers"
+  },
+  {
+    "documentIndex": 29,
+    "id": "CF-2233C",
+    "processedText": "cost bracket sequence brute force dp greedy"
+  },
+  {
+    "documentIndex": 30,
+    "id": "CF-2233B",
+    "processedText": "different distances constructive algorithms"
+  },
+  {
+    "documentIndex": 31,
+    "id": "CF-2233A",
+    "processedText": "ai project development brute force math"
+  },
+  {
+    "documentIndex": 32,
+    "id": "CF-2232F",
+    "processedText": "cake lie greedy math number theory"
+  },
+  {
+    "documentIndex": 33,
+    "id": "CF-2232E",
+    "processedText": "snaking arrangement combinatorics constructive algorithms"
+  },
+  {
+    "documentIndex": 34,
+    "id": "CF-2232D",
+    "processedText": "magical tiered cake constructive algorithms dfs similar dp greedy"
+  },
+  {
+    "documentIndex": 35,
+    "id": "CF-2232C2",
+    "processedText": "seating arrangement hard version binary search greedy math two pointers"
+  },
+  {
+    "documentIndex": 36,
+    "id": "CF-2232C1",
+    "processedText": "seating arrangement easy version binary search dp greedy two pointers"
+  },
+  {
+    "documentIndex": 37,
+    "id": "CF-2232B",
+    "processedText": "cake leveling binary search greedy math"
+  },
+  {
+    "documentIndex": 38,
+    "id": "CF-2232A",
+    "processedText": "convergence greedy sortings"
+  },
+  {
+    "documentIndex": 39,
+    "id": "CF-2231F",
+    "processedText": "quadratic jumps brute force constructive algorithms greedy math number theory"
+  },
+  {
+    "documentIndex": 40,
+    "id": "CF-2231E",
+    "processedText": "graph cutting dfs similar dp math trees"
+  },
+  {
+    "documentIndex": 41,
+    "id": "CF-2231D",
+    "processedText": "maximum prefix sums constructive algorithms greedy implementation two pointers"
+  },
+  {
+    "documentIndex": 42,
+    "id": "CF-2231C",
+    "processedText": "chipmunk theo equality implementation sortings"
+  },
+  {
+    "documentIndex": 43,
+    "id": "CF-2231B",
+    "processedText": "sorting problem constructive algorithms"
+  },
+  {
+    "documentIndex": 44,
+    "id": "CF-2231A",
+    "processedText": "construct array constructive algorithms"
+  },
+  {
+    "documentIndex": 45,
+    "id": "CF-2230F",
+    "processedText": "game growing tree binary search dfs similar divide conquer dp games implementation trees"
+  },
+  {
+    "documentIndex": 46,
+    "id": "CF-2230E",
+    "processedText": "minimum influence binary search data structures greedy implementation math sortings two pointers"
+  },
+  {
+    "documentIndex": 47,
+    "id": "CF-2230D",
+    "processedText": "good schedule dp greedy"
+  },
+  {
+    "documentIndex": 48,
+    "id": "CF-2230C",
+    "processedText": "arrange numbers circle constructive algorithms implementation math"
+  },
+  {
+    "documentIndex": 49,
+    "id": "CF-2230B",
+    "processedText": "digit string greedy implementation math"
+  },
+  {
+    "documentIndex": 50,
+    "id": "LC-1",
+    "processedText": "two sum array hash table"
+  },
+  {
+    "documentIndex": 51,
+    "id": "LC-2",
+    "processedText": "add two numbers linked list math recursion"
+  },
+  {
+    "documentIndex": 52,
+    "id": "LC-3",
+    "processedText": "longest substring without repeating characters hash table string sliding window"
+  },
+  {
+    "documentIndex": 53,
+    "id": "LC-4",
+    "processedText": "median two sorted arrays array binary search divide conquer"
+  },
+  {
+    "documentIndex": 54,
+    "id": "LC-5",
+    "processedText": "longest palindromic substring two pointers string dynamic programming"
+  },
+  {
+    "documentIndex": 55,
+    "id": "LC-6",
+    "processedText": "zigzag conversion string"
+  },
+  {
+    "documentIndex": 56,
+    "id": "LC-7",
+    "processedText": "reverse integer math"
+  },
+  {
+    "documentIndex": 57,
+    "id": "LC-8",
+    "processedText": "string integer atoi string"
+  },
+  {
+    "documentIndex": 58,
+    "id": "LC-9",
+    "processedText": "palindrome number math"
+  },
+  {
+    "documentIndex": 59,
+    "id": "LC-10",
+    "processedText": "regular expression matching string dynamic programming recursion"
+  },
+  {
+    "documentIndex": 60,
+    "id": "LC-11",
+    "processedText": "container water array two pointers greedy"
+  },
+  {
+    "documentIndex": 61,
+    "id": "LC-12",
+    "processedText": "integer roman hash table math string"
+  },
+  {
+    "documentIndex": 62,
+    "id": "LC-13",
+    "processedText": "roman integer hash table math string"
+  },
+  {
+    "documentIndex": 63,
+    "id": "LC-14",
+    "processedText": "longest common prefix array string trie"
+  },
+  {
+    "documentIndex": 64,
+    "id": "LC-15",
+    "processedText": "3sum array two pointers sorting"
+  },
+  {
+    "documentIndex": 65,
+    "id": "LC-16",
+    "processedText": "3sum closest array two pointers sorting"
+  },
+  {
+    "documentIndex": 66,
+    "id": "LC-17",
+    "processedText": "letter combinations phone number hash table string backtracking"
+  },
+  {
+    "documentIndex": 67,
+    "id": "LC-18",
+    "processedText": "4sum array two pointers sorting"
+  },
+  {
+    "documentIndex": 68,
+    "id": "LC-19",
+    "processedText": "remove nth node end list linked list two pointers"
+  },
+  {
+    "documentIndex": 69,
+    "id": "LC-20",
+    "processedText": "valid parentheses string stack"
+  },
+  {
+    "documentIndex": 70,
+    "id": "LC-21",
+    "processedText": "merge two sorted lists linked list recursion"
+  },
+  {
+    "documentIndex": 71,
+    "id": "LC-22",
+    "processedText": "generate parentheses string dynamic programming backtracking"
+  },
+  {
+    "documentIndex": 72,
+    "id": "LC-23",
+    "processedText": "merge k sorted lists linked list divide conquer heap priority queue merge sort"
+  },
+  {
+    "documentIndex": 73,
+    "id": "LC-24",
+    "processedText": "swap nodes pairs linked list recursion"
+  },
+  {
+    "documentIndex": 74,
+    "id": "LC-25",
+    "processedText": "reverse nodes k group linked list recursion"
+  },
+  {
+    "documentIndex": 75,
+    "id": "LC-26",
+    "processedText": "remove duplicates sorted array array two pointers"
+  },
+  {
+    "documentIndex": 76,
+    "id": "LC-27",
+    "processedText": "remove element array two pointers"
+  },
+  {
+    "documentIndex": 77,
+    "id": "LC-28",
+    "processedText": "find index first occurrence string two pointers string string matching"
+  },
+  {
+    "documentIndex": 78,
+    "id": "LC-29",
+    "processedText": "divide two integers math bit manipulation"
+  },
+  {
+    "documentIndex": 79,
+    "id": "LC-30",
+    "processedText": "substring concatenation words hash table string sliding window"
+  },
+  {
+    "documentIndex": 80,
+    "id": "LC-31",
+    "processedText": "next permutation array two pointers"
+  },
+  {
+    "documentIndex": 81,
+    "id": "LC-32",
+    "processedText": "longest valid parentheses string dynamic programming stack"
+  },
+  {
+    "documentIndex": 82,
+    "id": "LC-33",
+    "processedText": "search rotated sorted array array binary search"
+  },
+  {
+    "documentIndex": 83,
+    "id": "LC-34",
+    "processedText": "find first last position element sorted array array binary search"
+  },
+  {
+    "documentIndex": 84,
+    "id": "LC-35",
+    "processedText": "search insert position array binary search"
+  },
+  {
+    "documentIndex": 85,
+    "id": "LC-36",
+    "processedText": "valid sudoku array hash table matrix"
+  },
+  {
+    "documentIndex": 86,
+    "id": "LC-37",
+    "processedText": "sudoku solver array hash table backtracking matrix"
+  },
+  {
+    "documentIndex": 87,
+    "id": "LC-38",
+    "processedText": "count say string"
+  },
+  {
+    "documentIndex": 88,
+    "id": "LC-39",
+    "processedText": "combination sum array backtracking"
+  },
+  {
+    "documentIndex": 89,
+    "id": "LC-40",
+    "processedText": "combination sum ii array backtracking"
+  },
+  {
+    "documentIndex": 90,
+    "id": "LC-41",
+    "processedText": "first missing positive array hash table"
+  },
+  {
+    "documentIndex": 91,
+    "id": "LC-42",
+    "processedText": "trapping rain water array two pointers dynamic programming stack monotonic stack"
+  },
+  {
+    "documentIndex": 92,
+    "id": "LC-43",
+    "processedText": "multiply strings math string simulation"
+  },
+  {
+    "documentIndex": 93,
+    "id": "LC-44",
+    "processedText": "wildcard matching string dynamic programming greedy recursion"
+  },
+  {
+    "documentIndex": 94,
+    "id": "LC-45",
+    "processedText": "jump game ii array dynamic programming greedy"
+  },
+  {
+    "documentIndex": 95,
+    "id": "LC-46",
+    "processedText": "permutations array backtracking"
+  },
+  {
+    "documentIndex": 96,
+    "id": "LC-47",
+    "processedText": "permutations ii array backtracking sorting"
+  },
+  {
+    "documentIndex": 97,
+    "id": "LC-48",
+    "processedText": "rotate image array math matrix"
+  },
+  {
+    "documentIndex": 98,
+    "id": "LC-49",
+    "processedText": "group anagrams array hash table string sorting"
+  },
+  {
+    "documentIndex": 99,
+    "id": "LC-50",
+    "processedText": "pow x n math recursion"
+  }
+]

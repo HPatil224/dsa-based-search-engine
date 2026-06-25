@@ -1,0 +1,1299 @@
+[
+  {
+    "id": "CF-2237I2",
+    "title": "DBFS Order (Hard Version)",
+    "url": "https://codeforces.com/problemset/problem/2237/I2",
+    "source": "codeforces",
+    "difficulty": "3500",
+    "tags": [
+      "dp",
+      "trees"
+    ],
+    "description": "DBFS Order (Hard Version)"
+  },
+  {
+    "id": "CF-2237I1",
+    "title": "DBFS Order (Easy Version)",
+    "url": "https://codeforces.com/problemset/problem/2237/I1",
+    "source": "codeforces",
+    "difficulty": "3500",
+    "tags": [
+      "dp",
+      "trees"
+    ],
+    "description": "DBFS Order (Easy Version)"
+  },
+  {
+    "id": "CF-2237H",
+    "title": "Slime and Queries",
+    "url": "https://codeforces.com/problemset/problem/2237/H",
+    "source": "codeforces",
+    "difficulty": "3500",
+    "tags": [
+      "data structures",
+      "greedy",
+      "trees"
+    ],
+    "description": "Slime and Queries"
+  },
+  {
+    "id": "CF-2237G",
+    "title": "Send GCDs",
+    "url": "https://codeforces.com/problemset/problem/2237/G",
+    "source": "codeforces",
+    "difficulty": "2900",
+    "tags": [
+      "communication",
+      "constructive algorithms",
+      "interactive",
+      "math",
+      "number theory"
+    ],
+    "description": "Send GCDs"
+  },
+  {
+    "id": "CF-2237F",
+    "title": "Paint the Array",
+    "url": "https://codeforces.com/problemset/problem/2237/F",
+    "source": "codeforces",
+    "difficulty": "2400",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy"
+    ],
+    "description": "Paint the Array"
+  },
+  {
+    "id": "CF-2237E",
+    "title": "Permutation Commutation",
+    "url": "https://codeforces.com/problemset/problem/2237/E",
+    "source": "codeforces",
+    "difficulty": "2000",
+    "tags": [
+      "data structures",
+      "graphs",
+      "greedy"
+    ],
+    "description": "Permutation Commutation"
+  },
+  {
+    "id": "CF-2237D",
+    "title": "Fullmetal Bitchemist",
+    "url": "https://codeforces.com/problemset/problem/2237/D",
+    "source": "codeforces",
+    "difficulty": "1500",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math"
+    ],
+    "description": "Fullmetal Bitchemist"
+  },
+  {
+    "id": "CF-2237C",
+    "title": "Duck Surplus",
+    "url": "https://codeforces.com/problemset/problem/2237/C",
+    "source": "codeforces",
+    "difficulty": "1000",
+    "tags": [
+      "binary search",
+      "greedy"
+    ],
+    "description": "Duck Surplus"
+  },
+  {
+    "id": "CF-2237B",
+    "title": "Annoying the Ghost",
+    "url": "https://codeforces.com/problemset/problem/2237/B",
+    "source": "codeforces",
+    "difficulty": "1000",
+    "tags": [
+      "brute force",
+      "greedy"
+    ],
+    "description": "Annoying the Ghost"
+  },
+  {
+    "id": "CF-2237A",
+    "title": "Destroying Towers",
+    "url": "https://codeforces.com/problemset/problem/2237/A",
+    "source": "codeforces",
+    "difficulty": "800",
+    "tags": [
+      "games",
+      "greedy",
+      "schedules"
+    ],
+    "description": "Destroying Towers"
+  },
+  {
+    "id": "CF-2236G",
+    "title": "Criterion in Burlandia",
+    "url": "https://codeforces.com/problemset/problem/2236/G",
+    "source": "codeforces",
+    "difficulty": "2600",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "data structures",
+      "dfs and similar",
+      "divide and conquer",
+      "implementation",
+      "trees",
+      "two pointers"
+    ],
+    "description": "Criterion in Burlandia"
+  },
+  {
+    "id": "CF-2236F2",
+    "title": "Elections in Saransk (hard version)",
+    "url": "https://codeforces.com/problemset/problem/2236/F2",
+    "source": "codeforces",
+    "difficulty": "2200",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory"
+    ],
+    "description": "Elections in Saransk (hard version)"
+  },
+  {
+    "id": "CF-2236F1",
+    "title": "Elections in Saransk (easy version)",
+    "url": "https://codeforces.com/problemset/problem/2236/F1",
+    "source": "codeforces",
+    "difficulty": "1700",
+    "tags": [
+      "number theory"
+    ],
+    "description": "Elections in Saransk (easy version)"
+  },
+  {
+    "id": "CF-2236E",
+    "title": "Friendly Gifts",
+    "url": "https://codeforces.com/problemset/problem/2236/E",
+    "source": "codeforces",
+    "difficulty": "1700",
+    "tags": [
+      "brute force",
+      "dp"
+    ],
+    "description": "Friendly Gifts"
+  },
+  {
+    "id": "CF-2236D",
+    "title": "Brand New Tatar TV Show",
+    "url": "https://codeforces.com/problemset/problem/2236/D",
+    "source": "codeforces",
+    "difficulty": "1300",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "dp",
+      "games",
+      "math"
+    ],
+    "description": "Brand New Tatar TV Show"
+  },
+  {
+    "id": "CF-2236C",
+    "title": "Omsk Programmers",
+    "url": "https://codeforces.com/problemset/problem/2236/C",
+    "source": "codeforces",
+    "difficulty": "1000",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math"
+    ],
+    "description": "Omsk Programmers"
+  },
+  {
+    "id": "CF-2236B",
+    "title": "Tatar TV Show",
+    "url": "https://codeforces.com/problemset/problem/2236/B",
+    "source": "codeforces",
+    "difficulty": "800",
+    "tags": [
+      "greedy",
+      "math",
+      "strings"
+    ],
+    "description": "Tatar TV Show"
+  },
+  {
+    "id": "CF-2236A",
+    "title": "Games on the Train",
+    "url": "https://codeforces.com/problemset/problem/2236/A",
+    "source": "codeforces",
+    "difficulty": "800",
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "description": "Games on the Train"
+  },
+  {
+    "id": "CF-2234G",
+    "title": "Stripe, Token and Two Players",
+    "url": "https://codeforces.com/problemset/problem/2234/G",
+    "source": "codeforces",
+    "difficulty": "2700",
+    "tags": [
+      "data structures",
+      "dp",
+      "games"
+    ],
+    "description": "Stripe, Token and Two Players"
+  },
+  {
+    "id": "CF-2234F",
+    "title": "Vessels, Heights and Two Versions (Hard Version)",
+    "url": "https://codeforces.com/problemset/problem/2234/F",
+    "source": "codeforces",
+    "difficulty": "1900",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "greedy",
+      "implementation",
+      "two pointers"
+    ],
+    "description": "Vessels, Heights and Two Versions (Hard Version)"
+  },
+  {
+    "id": "CF-2234E",
+    "title": "Vlad, Misha and Two Arrays",
+    "url": "https://codeforces.com/problemset/problem/2234/E",
+    "source": "codeforces",
+    "difficulty": "2100",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dfs and similar",
+      "divide and conquer",
+      "math"
+    ],
+    "description": "Vlad, Misha and Two Arrays"
+  },
+  {
+    "id": "CF-2234D",
+    "title": "XOR, Expression and Two Binary Numbers",
+    "url": "https://codeforces.com/problemset/problem/2234/D",
+    "source": "codeforces",
+    "difficulty": "1500",
+    "tags": [
+      "bitmasks",
+      "divide and conquer",
+      "dp",
+      "math",
+      "number theory"
+    ],
+    "description": "XOR, Expression and Two Binary Numbers"
+  },
+  {
+    "id": "CF-2234C",
+    "title": "Vessels, Heights and Two Versions (Easy Version)",
+    "url": "https://codeforces.com/problemset/problem/2234/C",
+    "source": "codeforces",
+    "difficulty": "1200",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "greedy",
+      "implementation",
+      "two pointers"
+    ],
+    "description": "Vessels, Heights and Two Versions (Easy Version)"
+  },
+  {
+    "id": "CF-2234B",
+    "title": "Palindrome, Twelve and Two Terms",
+    "url": "https://codeforces.com/problemset/problem/2234/B",
+    "source": "codeforces",
+    "difficulty": "800",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "math"
+    ],
+    "description": "Palindrome, Twelve and Two Terms"
+  },
+  {
+    "id": "CF-2234A",
+    "title": "Euclid, Sequence and Two Numbers",
+    "url": "https://codeforces.com/problemset/problem/2234/A",
+    "source": "codeforces",
+    "difficulty": "800",
+    "tags": [
+      "math",
+      "number theory",
+      "sortings"
+    ],
+    "description": "Euclid, Sequence and Two Numbers"
+  },
+  {
+    "id": "CF-2233F",
+    "title": "Shortest GCD Paths",
+    "url": "https://codeforces.com/problemset/problem/2233/F",
+    "source": "codeforces",
+    "difficulty": "2800",
+    "tags": [
+      "dp",
+      "graphs",
+      "math",
+      "number theory",
+      "shortest paths"
+    ],
+    "description": "Shortest GCD Paths"
+  },
+  {
+    "id": "CF-2233E2",
+    "title": "Permutation Transmission (Difficult Version)",
+    "url": "https://codeforces.com/problemset/problem/2233/E2",
+    "source": "codeforces",
+    "difficulty": "2300",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "sortings"
+    ],
+    "description": "Permutation Transmission (Difficult Version)"
+  },
+  {
+    "id": "CF-2233E1",
+    "title": "Permutation Transmission (Easy Version)",
+    "url": "https://codeforces.com/problemset/problem/2233/E1",
+    "source": "codeforces",
+    "difficulty": "2200",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "sortings"
+    ],
+    "description": "Permutation Transmission (Easy Version)"
+  },
+  {
+    "id": "CF-2233D",
+    "title": "Goods on the Shelf",
+    "url": "https://codeforces.com/problemset/problem/2233/D",
+    "source": "codeforces",
+    "difficulty": "1900",
+    "tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "two pointers"
+    ],
+    "description": "Goods on the Shelf"
+  },
+  {
+    "id": "CF-2233C",
+    "title": "Cost of a Bracket Sequence",
+    "url": "https://codeforces.com/problemset/problem/2233/C",
+    "source": "codeforces",
+    "difficulty": "1400",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy"
+    ],
+    "description": "Cost of a Bracket Sequence"
+  },
+  {
+    "id": "CF-2233B",
+    "title": "Different Distances",
+    "url": "https://codeforces.com/problemset/problem/2233/B",
+    "source": "codeforces",
+    "difficulty": "900",
+    "tags": [
+      "constructive algorithms"
+    ],
+    "description": "Different Distances"
+  },
+  {
+    "id": "CF-2233A",
+    "title": "AI Project Development",
+    "url": "https://codeforces.com/problemset/problem/2233/A",
+    "source": "codeforces",
+    "difficulty": "800",
+    "tags": [
+      "brute force",
+      "math"
+    ],
+    "description": "AI Project Development"
+  },
+  {
+    "id": "CF-2232F",
+    "title": "The Cake Is a Lie",
+    "url": "https://codeforces.com/problemset/problem/2232/F",
+    "source": "codeforces",
+    "difficulty": "3000",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "description": "The Cake Is a Lie"
+  },
+  {
+    "id": "CF-2232E",
+    "title": "Snaking Arrangement",
+    "url": "https://codeforces.com/problemset/problem/2232/E",
+    "source": "codeforces",
+    "difficulty": "2600",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms"
+    ],
+    "description": "Snaking Arrangement"
+  },
+  {
+    "id": "CF-2232D",
+    "title": "Magical Tiered Cake",
+    "url": "https://codeforces.com/problemset/problem/2232/D",
+    "source": "codeforces",
+    "difficulty": "2000",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "greedy"
+    ],
+    "description": "Magical Tiered Cake"
+  },
+  {
+    "id": "CF-2232C2",
+    "title": "Seating Arrangement (Hard Version)",
+    "url": "https://codeforces.com/problemset/problem/2232/C2",
+    "source": "codeforces",
+    "difficulty": "1500",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "two pointers"
+    ],
+    "description": "Seating Arrangement (Hard Version)"
+  },
+  {
+    "id": "CF-2232C1",
+    "title": "Seating Arrangement (Easy Version)",
+    "url": "https://codeforces.com/problemset/problem/2232/C1",
+    "source": "codeforces",
+    "difficulty": "1300",
+    "tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "two pointers"
+    ],
+    "description": "Seating Arrangement (Easy Version)"
+  },
+  {
+    "id": "CF-2232B",
+    "title": "Cake Leveling",
+    "url": "https://codeforces.com/problemset/problem/2232/B",
+    "source": "codeforces",
+    "difficulty": "900",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math"
+    ],
+    "description": "Cake Leveling"
+  },
+  {
+    "id": "CF-2232A",
+    "title": "Convergence",
+    "url": "https://codeforces.com/problemset/problem/2232/A",
+    "source": "codeforces",
+    "difficulty": "800",
+    "tags": [
+      "greedy",
+      "sortings"
+    ],
+    "description": "Convergence"
+  },
+  {
+    "id": "CF-2231F",
+    "title": "Quadratic Jumps",
+    "url": "https://codeforces.com/problemset/problem/2231/F",
+    "source": "codeforces",
+    "difficulty": "2600",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "description": "Quadratic Jumps"
+  },
+  {
+    "id": "CF-2231E",
+    "title": "Graph Cutting",
+    "url": "https://codeforces.com/problemset/problem/2231/E",
+    "source": "codeforces",
+    "difficulty": "2300",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "math",
+      "trees"
+    ],
+    "description": "Graph Cutting"
+  },
+  {
+    "id": "CF-2231D",
+    "title": "Maximum Prefix Sums",
+    "url": "https://codeforces.com/problemset/problem/2231/D",
+    "source": "codeforces",
+    "difficulty": "1900",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "two pointers"
+    ],
+    "description": "Maximum Prefix Sums"
+  },
+  {
+    "id": "CF-2231C",
+    "title": "Chipmunk Theo and Equality",
+    "url": "https://codeforces.com/problemset/problem/2231/C",
+    "source": "codeforces",
+    "difficulty": "1400",
+    "tags": [
+      "implementation",
+      "sortings"
+    ],
+    "description": "Chipmunk Theo and Equality"
+  },
+  {
+    "id": "CF-2231B",
+    "title": "Another Sorting Problem",
+    "url": "https://codeforces.com/problemset/problem/2231/B",
+    "source": "codeforces",
+    "difficulty": "1100",
+    "tags": [
+      "constructive algorithms"
+    ],
+    "description": "Another Sorting Problem"
+  },
+  {
+    "id": "CF-2231A",
+    "title": "Construct an Array",
+    "url": "https://codeforces.com/problemset/problem/2231/A",
+    "source": "codeforces",
+    "difficulty": "800",
+    "tags": [
+      "constructive algorithms"
+    ],
+    "description": "Construct an Array"
+  },
+  {
+    "id": "CF-2230F",
+    "title": "Game on Growing Tree",
+    "url": "https://codeforces.com/problemset/problem/2230/F",
+    "source": "codeforces",
+    "difficulty": "2700",
+    "tags": [
+      "binary search",
+      "dfs and similar",
+      "divide and conquer",
+      "dp",
+      "games",
+      "implementation",
+      "trees"
+    ],
+    "description": "Game on Growing Tree"
+  },
+  {
+    "id": "CF-2230E",
+    "title": "Minimum Influence",
+    "url": "https://codeforces.com/problemset/problem/2230/E",
+    "source": "codeforces",
+    "difficulty": "2100",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "implementation",
+      "math",
+      "sortings",
+      "two pointers"
+    ],
+    "description": "Minimum Influence"
+  },
+  {
+    "id": "CF-2230D",
+    "title": "Good Schedule",
+    "url": "https://codeforces.com/problemset/problem/2230/D",
+    "source": "codeforces",
+    "difficulty": "1700",
+    "tags": [
+      "dp",
+      "greedy"
+    ],
+    "description": "Good Schedule"
+  },
+  {
+    "id": "CF-2230C",
+    "title": "Arrange the Numbers in a Circle",
+    "url": "https://codeforces.com/problemset/problem/2230/C",
+    "source": "codeforces",
+    "difficulty": "1300",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math"
+    ],
+    "description": "Arrange the Numbers in a Circle"
+  },
+  {
+    "id": "CF-2230B",
+    "title": "Digit String",
+    "url": "https://codeforces.com/problemset/problem/2230/B",
+    "source": "codeforces",
+    "difficulty": "1000",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "description": "Digit String"
+  },
+  {
+    "id": "LC-1",
+    "title": "Two Sum",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "source": "leetcode",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "description": "Two Sum"
+  },
+  {
+    "id": "LC-2",
+    "title": "Add Two Numbers",
+    "url": "https://leetcode.com/problems/add-two-numbers/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Math",
+      "Recursion"
+    ],
+    "description": "Add Two Numbers"
+  },
+  {
+    "id": "LC-3",
+    "title": "Longest Substring Without Repeating Characters",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "description": "Longest Substring Without Repeating Characters"
+  },
+  {
+    "id": "LC-4",
+    "title": "Median of Two Sorted Arrays",
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "source": "leetcode",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Divide and Conquer"
+    ],
+    "description": "Median of Two Sorted Arrays"
+  },
+  {
+    "id": "LC-5",
+    "title": "Longest Palindromic Substring",
+    "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ],
+    "description": "Longest Palindromic Substring"
+  },
+  {
+    "id": "LC-6",
+    "title": "Zigzag Conversion",
+    "url": "https://leetcode.com/problems/zigzag-conversion/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "String"
+    ],
+    "description": "Zigzag Conversion"
+  },
+  {
+    "id": "LC-7",
+    "title": "Reverse Integer",
+    "url": "https://leetcode.com/problems/reverse-integer/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Math"
+    ],
+    "description": "Reverse Integer"
+  },
+  {
+    "id": "LC-8",
+    "title": "String to Integer (atoi)",
+    "url": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "String"
+    ],
+    "description": "String to Integer (atoi)"
+  },
+  {
+    "id": "LC-9",
+    "title": "Palindrome Number",
+    "url": "https://leetcode.com/problems/palindrome-number/",
+    "source": "leetcode",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "description": "Palindrome Number"
+  },
+  {
+    "id": "LC-10",
+    "title": "Regular Expression Matching",
+    "url": "https://leetcode.com/problems/regular-expression-matching/",
+    "source": "leetcode",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Recursion"
+    ],
+    "description": "Regular Expression Matching"
+  },
+  {
+    "id": "LC-11",
+    "title": "Container With Most Water",
+    "url": "https://leetcode.com/problems/container-with-most-water/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Greedy"
+    ],
+    "description": "Container With Most Water"
+  },
+  {
+    "id": "LC-12",
+    "title": "Integer to Roman",
+    "url": "https://leetcode.com/problems/integer-to-roman/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String"
+    ],
+    "description": "Integer to Roman"
+  },
+  {
+    "id": "LC-13",
+    "title": "Roman to Integer",
+    "url": "https://leetcode.com/problems/roman-to-integer/",
+    "source": "leetcode",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String"
+    ],
+    "description": "Roman to Integer"
+  },
+  {
+    "id": "LC-14",
+    "title": "Longest Common Prefix",
+    "url": "https://leetcode.com/problems/longest-common-prefix/",
+    "source": "leetcode",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "Trie"
+    ],
+    "description": "Longest Common Prefix"
+  },
+  {
+    "id": "LC-15",
+    "title": "3Sum",
+    "url": "https://leetcode.com/problems/3sum/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "description": "3Sum"
+  },
+  {
+    "id": "LC-16",
+    "title": "3Sum Closest",
+    "url": "https://leetcode.com/problems/3sum-closest/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "description": "3Sum Closest"
+  },
+  {
+    "id": "LC-17",
+    "title": "Letter Combinations of a Phone Number",
+    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Backtracking"
+    ],
+    "description": "Letter Combinations of a Phone Number"
+  },
+  {
+    "id": "LC-18",
+    "title": "4Sum",
+    "url": "https://leetcode.com/problems/4sum/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "description": "4Sum"
+  },
+  {
+    "id": "LC-19",
+    "title": "Remove Nth Node From End of List",
+    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "description": "Remove Nth Node From End of List"
+  },
+  {
+    "id": "LC-20",
+    "title": "Valid Parentheses",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "source": "leetcode",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "description": "Valid Parentheses"
+  },
+  {
+    "id": "LC-21",
+    "title": "Merge Two Sorted Lists",
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "source": "leetcode",
+    "difficulty": "Easy",
+    "tags": [
+      "Linked List",
+      "Recursion"
+    ],
+    "description": "Merge Two Sorted Lists"
+  },
+  {
+    "id": "LC-22",
+    "title": "Generate Parentheses",
+    "url": "https://leetcode.com/problems/generate-parentheses/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking"
+    ],
+    "description": "Generate Parentheses"
+  },
+  {
+    "id": "LC-23",
+    "title": "Merge k Sorted Lists",
+    "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "source": "leetcode",
+    "difficulty": "Hard",
+    "tags": [
+      "Linked List",
+      "Divide and Conquer",
+      "Heap (Priority Queue)",
+      "Merge Sort"
+    ],
+    "description": "Merge k Sorted Lists"
+  },
+  {
+    "id": "LC-24",
+    "title": "Swap Nodes in Pairs",
+    "url": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Recursion"
+    ],
+    "description": "Swap Nodes in Pairs"
+  },
+  {
+    "id": "LC-25",
+    "title": "Reverse Nodes in k-Group",
+    "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "source": "leetcode",
+    "difficulty": "Hard",
+    "tags": [
+      "Linked List",
+      "Recursion"
+    ],
+    "description": "Reverse Nodes in k-Group"
+  },
+  {
+    "id": "LC-26",
+    "title": "Remove Duplicates from Sorted Array",
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+    "source": "leetcode",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "description": "Remove Duplicates from Sorted Array"
+  },
+  {
+    "id": "LC-27",
+    "title": "Remove Element",
+    "url": "https://leetcode.com/problems/remove-element/",
+    "source": "leetcode",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "description": "Remove Element"
+  },
+  {
+    "id": "LC-28",
+    "title": "Find the Index of the First Occurrence in a String",
+    "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
+    "source": "leetcode",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "String Matching"
+    ],
+    "description": "Find the Index of the First Occurrence in a String"
+  },
+  {
+    "id": "LC-29",
+    "title": "Divide Two Integers",
+    "url": "https://leetcode.com/problems/divide-two-integers/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Bit Manipulation"
+    ],
+    "description": "Divide Two Integers"
+  },
+  {
+    "id": "LC-30",
+    "title": "Substring with Concatenation of All Words",
+    "url": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/",
+    "source": "leetcode",
+    "difficulty": "Hard",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "description": "Substring with Concatenation of All Words"
+  },
+  {
+    "id": "LC-31",
+    "title": "Next Permutation",
+    "url": "https://leetcode.com/problems/next-permutation/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "description": "Next Permutation"
+  },
+  {
+    "id": "LC-32",
+    "title": "Longest Valid Parentheses",
+    "url": "https://leetcode.com/problems/longest-valid-parentheses/",
+    "source": "leetcode",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Stack"
+    ],
+    "description": "Longest Valid Parentheses"
+  },
+  {
+    "id": "LC-33",
+    "title": "Search in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "description": "Search in Rotated Sorted Array"
+  },
+  {
+    "id": "LC-34",
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "description": "Find First and Last Position of Element in Sorted Array"
+  },
+  {
+    "id": "LC-35",
+    "title": "Search Insert Position",
+    "url": "https://leetcode.com/problems/search-insert-position/",
+    "source": "leetcode",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "description": "Search Insert Position"
+  },
+  {
+    "id": "LC-36",
+    "title": "Valid Sudoku",
+    "url": "https://leetcode.com/problems/valid-sudoku/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ],
+    "description": "Valid Sudoku"
+  },
+  {
+    "id": "LC-37",
+    "title": "Sudoku Solver",
+    "url": "https://leetcode.com/problems/sudoku-solver/",
+    "source": "leetcode",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Backtracking",
+      "Matrix"
+    ],
+    "description": "Sudoku Solver"
+  },
+  {
+    "id": "LC-38",
+    "title": "Count and Say",
+    "url": "https://leetcode.com/problems/count-and-say/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "String"
+    ],
+    "description": "Count and Say"
+  },
+  {
+    "id": "LC-39",
+    "title": "Combination Sum",
+    "url": "https://leetcode.com/problems/combination-sum/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ],
+    "description": "Combination Sum"
+  },
+  {
+    "id": "LC-40",
+    "title": "Combination Sum II",
+    "url": "https://leetcode.com/problems/combination-sum-ii/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ],
+    "description": "Combination Sum II"
+  },
+  {
+    "id": "LC-41",
+    "title": "First Missing Positive",
+    "url": "https://leetcode.com/problems/first-missing-positive/",
+    "source": "leetcode",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "description": "First Missing Positive"
+  },
+  {
+    "id": "LC-42",
+    "title": "Trapping Rain Water",
+    "url": "https://leetcode.com/problems/trapping-rain-water/",
+    "source": "leetcode",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ],
+    "description": "Trapping Rain Water"
+  },
+  {
+    "id": "LC-43",
+    "title": "Multiply Strings",
+    "url": "https://leetcode.com/problems/multiply-strings/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "String",
+      "Simulation"
+    ],
+    "description": "Multiply Strings"
+  },
+  {
+    "id": "LC-44",
+    "title": "Wildcard Matching",
+    "url": "https://leetcode.com/problems/wildcard-matching/",
+    "source": "leetcode",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Greedy",
+      "Recursion"
+    ],
+    "description": "Wildcard Matching"
+  },
+  {
+    "id": "LC-45",
+    "title": "Jump Game II",
+    "url": "https://leetcode.com/problems/jump-game-ii/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "description": "Jump Game II"
+  },
+  {
+    "id": "LC-46",
+    "title": "Permutations",
+    "url": "https://leetcode.com/problems/permutations/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ],
+    "description": "Permutations"
+  },
+  {
+    "id": "LC-47",
+    "title": "Permutations II",
+    "url": "https://leetcode.com/problems/permutations-ii/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Sorting"
+    ],
+    "description": "Permutations II"
+  },
+  {
+    "id": "LC-48",
+    "title": "Rotate Image",
+    "url": "https://leetcode.com/problems/rotate-image/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Matrix"
+    ],
+    "description": "Rotate Image"
+  },
+  {
+    "id": "LC-49",
+    "title": "Group Anagrams",
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ],
+    "description": "Group Anagrams"
+  },
+  {
+    "id": "LC-50",
+    "title": "Pow(x, n)",
+    "url": "https://leetcode.com/problems/powx-n/",
+    "source": "leetcode",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Recursion"
+    ],
+    "description": "Pow(x, n)"
+  }
+]
