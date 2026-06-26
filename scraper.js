@@ -3,22 +3,16 @@ const fs = require('fs');
 
 let allProblems = [];
 
-async function scrapeCodeforces(page) {
-    console.log("Scraping Codeforces via API...");
-    // Go to a lightweight page to establish context
-    await page.goto('https://codeforces.com', { waitUntil: 'domcontentloaded' });
-
-    const problems = await page.evaluate(async () => {
-        // Hit their official public API
+async function scrapeCodeforces() {
+    console.log("Fetching Codeforces via API...");
+    try {
         const response = await fetch('https://codeforces.com/api/problemset.problems');
         const data = await response.json();
+        if (data.status !== "OK") return;
 
-        if (data.status !== "OK") return [];
-
-        // Slice to 50 problems so we don't overwhelm the index right away
-        const rawProblems = data.result.problems.slice(0, 50);
-
-        return rawProblems.map(p => ({
+        // SCALED UP: Grabbing 1000 problems
+        const rawProblems = data.result.problems.slice(0, 1000); 
+        const problems = rawProblems.map(p => ({
             id: `CF-${p.contestId}${p.index}`,
             title: p.name,
             url: `https://codeforces.com/problemset/problem/${p.contestId}/${p.index}`,
@@ -27,32 +21,52 @@ async function scrapeCodeforces(page) {
             tags: p.tags || [],
             description: p.name
         }));
-    });
 
-    console.log(`Found ${problems.length} Codeforces problems.`);
-    allProblems.push(...problems);
+        console.log(`Found ${problems.length} Codeforces problems.`);
+        allProblems.push(...problems);
+    } catch (error) {
+        console.error("Codeforces error:", error);
+    }
+}
+
+async function scrapeAtCoder() {
+    console.log("Fetching AtCoder via Kenkoooo API...");
+    try {
+        const response = await fetch('https://kenkoooo.com/atcoder/resources/problems.json');
+        const data = await response.json();
+        
+        // SCALED UP: Grabbing 1000 problems
+        const rawProblems = data.slice(0, 1000); 
+        const problems = rawProblems.map(p => ({
+            id: `AC-${p.id}`,
+            title: p.title,
+            url: `https://atcoder.jp/contests/${p.contest_id}/tasks/${p.id}`,
+            source: 'atcoder',
+            difficulty: 'Standard',
+            tags: [],
+            description: p.title
+        }));
+
+        console.log(`Found ${problems.length} AtCoder problems.`);
+        allProblems.push(...problems);
+    } catch (error) {
+        console.error("AtCoder error:", error);
+    }
 }
 
 async function scrapeLeetCode(page) {
     console.log("Scraping LeetCode via internal GraphQL API...");
-    // Go to the homepage to grab valid cookies/headers
     await page.goto('https://leetcode.com', { waitUntil: 'domcontentloaded' });
 
     const problems = await page.evaluate(async () => {
-        // LeetCode's internal GraphQL query to fetch problem lists
         const query = {
             query: `query problemsetQuestionList($categorySlug: String, $limit: Int, $skip: Int, $filters: QuestionListFilterInput) {
               problemsetQuestionList: questionList(categorySlug: $categorySlug, limit: $limit, skip: $skip, filters: $filters) {
-                questions: data {
-                  title
-                  titleSlug
-                  frontendQuestionId: questionFrontendId
-                  difficulty
-                  topicTags { name }
-                }
+                questions: data { title titleSlug frontendQuestionId: questionFrontendId difficulty topicTags { name } }
               }
             }`,
-            variables: { categorySlug: "", skip: 0, limit: 50, filters: {} }
+            // SCALED UP: Limit set to 1000
+            variables: { categorySlug: "", skip: 0, limit: 1000, filters: {} }
         };
 
         const response = await fetch('https://leetcode.com/graphql', {
@@ -79,25 +93,56 @@ async function scrapeLeetCode(page) {
     allProblems.push(...problems);
 }
 
+async function scrapeCSES(page) {
+    console.log("Scraping CSES Problem Set...");
+    await page.goto('https://cses.fi/problemset/', { waitUntil: 'domcontentloaded' });
+
+    const problems = await page.evaluate(() => {
+        const results = [];
+        const links = document.querySelectorAll('.task a'); 
+        
+        links.forEach(link => {
+            const title = link.innerText.trim();
+            const url = link.href;
+            const idMatch = url.match(/task\/(\d+)/);
+            
+            if (idMatch) {
+                results.push({
+                    id: `CSES-${idMatch[1]}`,
+                    title: title,
+                    url: url,
+                    source: 'cses',
+                    difficulty: 'Standard',
+                    tags: ['cses'],
+                    description: title
+                });
+            }
+        });
+        // SCALED UP: No slice, returning all ~300 problems
+        return results; 
+    });
+
+    console.log(`Found ${problems.length} CSES problems.`);
+    allProblems.push(...problems);
+}
+
 async function scrapeData() {
-    console.log("Launching browser...");
+    console.log("Launching browser for web scraping...");
     const browser = await puppeteer.launch({ headless: "new" }); 
     const page = await browser.newPage();
 
     try {
-        await scrapeCodeforces(page);
+        await scrapeCodeforces(); 
+        await scrapeAtCoder();    
         await scrapeLeetCode(page);
+        await scrapeCSES(page);
     } catch (err) {
         console.error("Error during scraping:", err);
     } finally {
         await browser.close();
     }
 
-    // Save the data to our JSON file
-    fs.writeFileSync(
-        './problems/problems.json', 
-        JSON.stringify(allProblems, null, 2)
-    );
+    fs.writeFileSync('./problems/problems.json', JSON.stringify(allProblems, null, 2));
     console.log(`✅ Scraping complete! Saved ${allProblems.length} problems to problems.json.`);
 }
 

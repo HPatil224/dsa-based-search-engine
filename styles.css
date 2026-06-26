@@ -1,3 +1,13 @@
+:root {
+    --bg-color: #f8fafc;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --card-bg: rgba(255, 255, 255, 0.85);
+    --border-radius: 12px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,9 +16,10 @@
 }
 
 body {
-    background-color: #f4f4f9;
-    color: #333;
-    padding: 2rem;
+    background: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%);
+    color: var(--text-main);
+    padding: 3rem 1rem;
+    min-height: 100vh;
 }
 
 .container {
@@ -18,79 +29,160 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    animation: fadeInDown 0.6s ease-out;
 }
 
 h1 {
-    font-size: 2.5rem;
-    color: #2c3e50;
+    font-size: 2.75rem;
+    color: #0f172a;
     margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
 }
 
+header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+/* Dynamic Search Box */
 .search-box {
     display: flex;
-    margin-top: 1.5rem;
-    gap: 10px;
+    margin-top: 2rem;
+    gap: 12px;
+    background: white;
+    padding: 8px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-box:focus-within {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 35px rgba(59, 130, 246, 0.15);
 }
 
 #searchInput {
     flex: 1;
-    padding: 12px 16px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    border: none;
+    background: transparent;
     outline: none;
+    color: var(--text-main);
 }
 
-#searchInput:focus {
-    border-color: #3498db;
+#searchInput::placeholder {
+    color: #94a3b8;
 }
 
 #searchBtn {
-    padding: 12px 24px;
-    font-size: 1rem;
-    background-color: #3498db;
+    padding: 14px 32px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    background-color: var(--primary);
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 12px;
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s ease, transform 0.1s;
+}
+
+#searchBtn:active {
+    transform: scale(0.96);
 }
 
 #searchBtn:hover {
-    background-color: #2980b9;
+    background-color: var(--primary-hover);
+}
+
+/* Loading State */
+#loading {
+    text-align: center;
+    color: var(--text-muted);
+    font-weight: 500;
+    margin: 2rem 0;
+    animation: pulse 1.5s infinite;
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
+/* Problem Cards with Glassmorphism & Hover Lift */
 .problem-card {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    padding: 1.75rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0; /* Set up for JS fade-in */
+    transform: translateY(10px);
+}
+
+.problem-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.problem-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.problem-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
 }
 
 .problem-card h3 a {
-    color: #2c3e50;
+    color: #1e293b;
     text-decoration: none;
+    transition: color 0.2s;
 }
 
 .problem-card h3 a:hover {
-    color: #3498db;
+    color: var(--primary);
 }
 
+/* Badges */
 .badge {
     display: inline-block;
-    padding: 4px 8px;
-    border-radius: 4px;
+    padding: 6px 12px;
+    border-radius: 20px;
     font-size: 0.8rem;
+    font-weight: 600;
     margin-right: 8px;
-    margin-top: 8px;
-    background-color: #eee;
+    margin-bottom: 8px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
 }
 
-.source-leetcode { background-color: #ffe0b2; color: #e65100; }
-.source-codeforces { background-color: #bbdefb; color: #0d47a1; }
+.source-leetcode { background-color: #fff7ed; color: #c2410c; border: 1px solid #ffedd5; }
+.source-codeforces { background-color: #eff6ff; color: #1d4ed8; border: 1px solid #dbeafe; }
+.badge-diff { background-color: #f1f5f9; color: #475569; }
+.badge-score { background-color: #f8fafc; color: #94a3b8; border: 1px dashed #cbd5e1; }
+
+.tags {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+.source-atcoder { background-color: #f3e8ff; color: #7e22ce; border: 1px solid #e9d5ff; }
+.source-cses { background-color: #fce7f3; color: #be185d; border: 1px solid #fbcfe8; }

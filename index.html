@@ -10,12 +10,19 @@
     <div class="container">
         <header>
             <h1>DSA Problem Search</h1>
-            <p>Find problems across LeetCode and Codeforces</p>
+            <p>Find problems across LeetCode, Codeforces, Atcoder and CSES</p>
             
             <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Search for 'binary tree', 'two pointers', etc...">
-                <button id="searchBtn">Search</button>
-            </div>
+    <select id="sourceFilter" style="border: none; outline: none; background: transparent; padding: 0 10px; color: #64748b; font-weight: 500; border-right: 1px solid #e2e8f0; cursor: pointer;">
+        <option value="all">All Platforms</option>
+        <option value="leetcode">LeetCode</option>
+        <option value="codeforces">Codeforces</option>
+        <option value="atcoder">AtCoder</option>
+        <option value="cses">CSES</option>
+    </select>
+    <input type="text" id="searchInput" placeholder="Search for 'binary tree', 'graphs'...">
+    <button id="searchBtn">Search</button>
+</div>
         </header>
 
         <main>
